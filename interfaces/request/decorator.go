@@ -1,7 +1,7 @@
 package request
 
 import (
-	"delivery-report/framework/abstract/stack"
+	"github.com/DmitriBeattie/custom-framework/abstract/stack"
 	"net/http"
 )
 

@@ -1,9 +1,9 @@
 package middlewares
 
 import (
-	"delivery-report/framework/abstract/apierror"
-	"delivery-report/framework/interfaces/api"
-	"delivery-report/framework/interfaces/request"
+	"github.com/DmitriBeattie/custom-framework/abstract/apierror"
+	"github.com/DmitriBeattie/custom-framework/interfaces/api"
+	"github.com/DmitriBeattie/custom-framework/interfaces/request"
 	"net/http"
 )
 

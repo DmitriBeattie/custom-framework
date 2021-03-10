@@ -1,7 +1,7 @@
 package loggers
 
 import (
-	"delivery-report/framework/provider"
+	"github.com/DmitriBeattie/custom-framework/provider"
 	"bytes"
 	"encoding/json"
 	"fmt"

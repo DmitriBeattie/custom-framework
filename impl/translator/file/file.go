@@ -2,7 +2,7 @@ package file
 
 import (
 	"encoding/json"
-	"delivery-report/framework/interfaces/translator"
+	"github.com/DmitriBeattie/custom-framework/interfaces/translator"
 	"io/ioutil"
 )
 

@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"delivery-report/framework/interfaces/request"
+	"github.com/DmitriBeattie/custom-framework/interfaces/request"
 	"errors"
 	"io"
 	"net/http"

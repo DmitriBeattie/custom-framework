@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"delivery-report/framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
 )
 
 type SyncService struct {

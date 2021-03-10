@@ -1,7 +1,7 @@
 package api
 
 import (
-	"delivery-report/framework/abstract/apierror"
+	"github.com/DmitriBeattie/custom-framework/abstract/apierror"
 	"encoding/json"
 	"net/http"
 )

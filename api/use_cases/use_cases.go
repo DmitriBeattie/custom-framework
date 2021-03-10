@@ -2,11 +2,11 @@ package use_cases
 
 import (
 	"fmt"
-	"delivery-report/framework/abstract/apierror"
-	"delivery-report/framework/interfaces/api"
-	"delivery-report/framework/interfaces/app"
-	"delivery-report/framework/interfaces/translator"
-	utilshttp "delivery-report/framework/utils/http"
+	"github.com/DmitriBeattie/custom-framework/abstract/apierror"
+	"github.com/DmitriBeattie/custom-framework/interfaces/api"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/interfaces/translator"
+	utilshttp "github.com/DmitriBeattie/custom-framework/utils/http"
 	"github.com/gorilla/context"
 	"net/http"
 )

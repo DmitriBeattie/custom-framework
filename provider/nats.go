@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"delivery-report/framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
 	"fmt"
 	"sync"
 	"time"

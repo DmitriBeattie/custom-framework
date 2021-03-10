@@ -2,7 +2,7 @@ package apierror
 
 import (
 	"fmt"
-	"delivery-report/framework/interfaces/translator"
+	"github.com/DmitriBeattie/custom-framework/interfaces/translator"
 	"strconv"
 	"strings"
 )

@@ -2,8 +2,8 @@ package middlewares
 
 import (
 	"fmt"
-	"delivery-report/framework/interfaces/api"
-	"delivery-report/framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/interfaces/api"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
 	"net/http"
 	"runtime/debug"
 )

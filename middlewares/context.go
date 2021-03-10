@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"delivery-report/framework/interfaces/api"
+	"github.com/DmitriBeattie/custom-framework/interfaces/api"
 	"net/http"
 
 	"github.com/gorilla/context"

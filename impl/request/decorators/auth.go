@@ -2,9 +2,9 @@ package auth
 
 import (
 	"encoding/json"
-	"delivery-report/framework/abstract/apierror"
-	"delivery-report/framework/interfaces/app"
-	"delivery-report/framework/provider"
+	"github.com/DmitriBeattie/custom-framework/abstract/apierror"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/provider"
 	"io/ioutil"
 	"net/http"
 	"strconv"
@@ -31,7 +31,7 @@ func IdentityAuthInstance(_baseRequest *provider.ServiceRequest, log app.Logger)
 
 func IdentityAuthError() apierror.APIError {
 	return apierror.New().
-		Component("delivery-report/framework/auth")
+		Component("github.com/DmitriBeattie/custom-framework/auth")
 }
 
 func (i *IdentityAuth) Decorate(r *http.Request) *http.Request {

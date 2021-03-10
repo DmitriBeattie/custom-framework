@@ -2,8 +2,8 @@ package presenters
 
 import (
 	"fmt"
-	"delivery-report/framework/interfaces/api"
-	utilshttp "delivery-report/framework/utils/http"
+	"github.com/DmitriBeattie/custom-framework/interfaces/api"
+	utilshttp "github.com/DmitriBeattie/custom-framework/utils/http"
 	"net/http"
 )
 

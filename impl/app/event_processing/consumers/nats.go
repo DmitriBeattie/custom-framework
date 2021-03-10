@@ -3,8 +3,8 @@ package consumers
 import (
 	"encoding/json"
 	"fmt"
-	"delivery-report/framework/interfaces/app"
-	"delivery-report/framework/provider"
+	"github.com/DmitriBeattie/custom-framework/interfaces/app"
+	"github.com/DmitriBeattie/custom-framework/provider"
 )
 
 type queueDefinition map[string]string

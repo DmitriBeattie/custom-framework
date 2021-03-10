@@ -2,7 +2,7 @@ package provider
 
 import (
 	"database/sql"
-	"delivery-report/framework/utils/slice"
+	"github.com/DmitriBeattie/custom-framework/utils/slice"
 	"errors"
 	mssql "github.com/denisenkom/go-mssqldb"
 	"net/url"
